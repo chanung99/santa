@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Loding from './javascriptfolder/loding';
-function App() {
-  return (
-    <div className="App">
-      <h1>hoho show ate9</h1>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App"></div>
+    );
+  }
 }
 
-<Loding></Loding>
 export default App;
