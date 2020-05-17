@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/santa/static/css/main.da43812d.chunk.css",
-    "main.js": "/santa/static/js/main.94eb2cac.chunk.js",
-    "main.js.map": "/santa/static/js/main.94eb2cac.chunk.js.map",
+    "main.js": "/santa/static/js/main.d75fa1be.chunk.js",
+    "main.js.map": "/santa/static/js/main.d75fa1be.chunk.js.map",
     "runtime-main.js": "/santa/static/js/runtime-main.7e0f3589.js",
     "runtime-main.js.map": "/santa/static/js/runtime-main.7e0f3589.js.map",
-    "static/js/2.c96e8c9b.chunk.js": "/santa/static/js/2.c96e8c9b.chunk.js",
-    "static/js/2.c96e8c9b.chunk.js.map": "/santa/static/js/2.c96e8c9b.chunk.js.map",
+    "static/js/2.5bb369a7.chunk.js": "/santa/static/js/2.5bb369a7.chunk.js",
+    "static/js/2.5bb369a7.chunk.js.map": "/santa/static/js/2.5bb369a7.chunk.js.map",
     "index.html": "/santa/index.html",
-    "precache-manifest.1fe4a22851a91e4dfcae90194fa4bcb5.js": "/santa/precache-manifest.1fe4a22851a91e4dfcae90194fa4bcb5.js",
+    "precache-manifest.c187ea0893b90b4506a52b25796d6d3e.js": "/santa/precache-manifest.c187ea0893b90b4506a52b25796d6d3e.js",
     "service-worker.js": "/santa/service-worker.js",
     "static/css/main.da43812d.chunk.css.map": "/santa/static/css/main.da43812d.chunk.css.map",
-    "static/js/2.c96e8c9b.chunk.js.LICENSE.txt": "/santa/static/js/2.c96e8c9b.chunk.js.LICENSE.txt",
+    "static/js/2.5bb369a7.chunk.js.LICENSE.txt": "/santa/static/js/2.5bb369a7.chunk.js.LICENSE.txt",
+    "static/media/chanungBanner.png": "/santa/static/media/chanungBanner.fe33cdde.png",
     "static/media/logo.svg": "/santa/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7e0f3589.js",
-    "static/js/2.c96e8c9b.chunk.js",
+    "static/js/2.5bb369a7.chunk.js",
     "static/css/main.da43812d.chunk.css",
-    "static/js/main.94eb2cac.chunk.js"
+    "static/js/main.d75fa1be.chunk.js"
   ]
 }
