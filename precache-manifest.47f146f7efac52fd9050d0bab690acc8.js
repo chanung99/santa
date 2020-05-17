@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96c1f49b94f31a011d83975b4aa0747a",
+    "revision": "97a69a97afdad2a51a60f865d142ec53",
     "url": "/santa/index.html"
   },
   {
-    "revision": "0f1aca4fa8eff4baa05d",
-    "url": "/santa/static/css/main.8055b525.chunk.css"
+    "revision": "8d2524daec5d316446e3",
+    "url": "/santa/static/css/main.f18591ce.chunk.css"
   },
   {
-    "revision": "0eda6e18091508f15d0f",
-    "url": "/santa/static/js/2.5bb369a7.chunk.js"
+    "revision": "13ff9ed6837ec7a069ab",
+    "url": "/santa/static/js/2.c96e8c9b.chunk.js"
   },
   {
     "revision": "f4aac9c965aa45c554c7c1d1e3f69ce3",
-    "url": "/santa/static/js/2.5bb369a7.chunk.js.LICENSE.txt"
+    "url": "/santa/static/js/2.c96e8c9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f1aca4fa8eff4baa05d",
-    "url": "/santa/static/js/main.d75fa1be.chunk.js"
+    "revision": "8d2524daec5d316446e3",
+    "url": "/santa/static/js/main.5248a7f6.chunk.js"
   },
   {
     "revision": "003633d0ed6287387842",
     "url": "/santa/static/js/runtime-main.7e0f3589.js"
+  },
+  {
+    "revision": "74ba544e010b7c44ee02e35d5dc869d9",
+    "url": "/santa/static/media/Banner.74ba544e.png"
   },
   {
     "revision": "fe33cddefc372ad8d8bfd22218b9d2c9",
