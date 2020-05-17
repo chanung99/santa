@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import '../App.css';
+import jQuery from "jquery";
+import $ from "jquery";
 
-class Wrapper extends Component{
-    render(){
-        return(
+class Wrapper extends Component {
+    render() {
+        
+        return (
             <div class="wrapper">
-                <img src="../img/chanungBanner.png" width="100%" alt="banner"/>
+               <div class="top_home">
+                   <img src="../img/chanungBanner.png"/>
+               </div>
             </div>
         );
     }
