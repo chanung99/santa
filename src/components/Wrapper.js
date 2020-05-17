@@ -9,7 +9,7 @@ class Wrapper extends Component {
         return (
             <div class="wrapper">
                <div class="top_home">
-                   <img src="../img/chanungBanner.png"/>
+                   <img src="../chanungBanner.png"/>
                </div>
             </div>
         );
