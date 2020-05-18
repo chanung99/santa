@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a331432e0ebdfc7ad6dc941cfe1fa89f",
+    "revision": "38d8cf8b1e07daa387704e4306de467a",
     "url": "/santa/index.html"
   },
   {
-    "revision": "d550b3824e52d0561144",
-    "url": "/santa/static/css/main.a80d454b.chunk.css"
+    "revision": "b9c314c151cd419f1c8b",
+    "url": "/santa/static/css/main.a2624b61.chunk.css"
   },
   {
     "revision": "244387f3d2febe097825",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/santa/static/js/2.09dd7086.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d550b3824e52d0561144",
-    "url": "/santa/static/js/main.8714a62a.chunk.js"
+    "revision": "b9c314c151cd419f1c8b",
+    "url": "/santa/static/js/main.a1b0a22f.chunk.js"
   },
   {
     "revision": "003633d0ed6287387842",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe33cddefc372ad8d8bfd22218b9d2c9",
     "url": "/santa/static/media/chanungBanner.fe33cdde.png"
+  },
+  {
+    "revision": "9569458706c22723e8322de1aa69ffe3",
+    "url": "/santa/static/media/gray.95694587.jpg"
   },
   {
     "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
