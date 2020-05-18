@@ -7,7 +7,7 @@ class Subject extends Component {
         
         return (
             <header class="header">
-                
+
             </header>
         );
     }
