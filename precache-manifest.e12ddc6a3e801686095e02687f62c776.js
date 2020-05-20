@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "631e51e4e3898480bf12f3bc997b837d",
+    "revision": "3be45022d42dd5b9df25bab00bbcd1df",
     "url": "/santa/index.html"
   },
   {
-    "revision": "3a027a43b5b41bf12b3b",
-    "url": "/santa/static/css/main.6c3b3ab2.chunk.css"
+    "revision": "0d0e3c2bac1e3e67dd50",
+    "url": "/santa/static/css/main.7219ae82.chunk.css"
   },
   {
     "revision": "9213895410ff3bfaf1c9",
@@ -16,20 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/santa/static/js/2.0a6863d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a027a43b5b41bf12b3b",
-    "url": "/santa/static/js/main.5c7a94e2.chunk.js"
+    "revision": "0d0e3c2bac1e3e67dd50",
+    "url": "/santa/static/js/main.9d3a7a6d.chunk.js"
   },
   {
     "revision": "003633d0ed6287387842",
     "url": "/santa/static/js/runtime-main.7e0f3589.js"
-  },
-  {
-    "revision": "74ba544e010b7c44ee02e35d5dc869d9",
-    "url": "/santa/static/media/Banner.74ba544e.png"
-  },
-  {
-    "revision": "4db9b9dd689317757c93d1b2be6fa80e",
-    "url": "/santa/static/media/Nwood.4db9b9dd.jpg"
   },
   {
     "revision": "44f28ff5ddf738f8add1df097a7cb4c1",
@@ -46,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7863b45d3c303903eef733b50cb4bf1",
     "url": "/santa/static/media/css.f7863b45.png"
-  },
-  {
-    "revision": "9569458706c22723e8322de1aa69ffe3",
-    "url": "/santa/static/media/gray.95694587.jpg"
   },
   {
     "revision": "5ddabecc1666f9c04937c3b35024c7cb",
