@@ -1,51 +1,34 @@
 import React, { Component } from 'react';
-import '../App.css';
-import Banner from './chanungBanner.png';
-import jQuery from "jquery";
-import $ from "jquery";
-import Sagin from './sajin.jpg';
-import Block from '../img/block.jpg';
-import Arrow from '../img/arrow.png';
-class Wrapper extends Component {
+import '../style/Wrapper.css';
 
-    render() {
-
-
-        return (
-            
-            <div class="wrapper">
-
-                
-
-                <div class="About">
-                    <div class="my_info">
-                        
-                        <img src={Sagin} />
-                        <ul>
-                            <li>{this.props.name}</li>
-                            <li>{this.props.job}</li>
-                            <li>{this.props.birth}</li>
-                            <li>{this.props.address}</li>
-                            <li>{this.props.phone}</li>
-                            <li>{this.props.mail}</li>
-
-                        </ul>
-                        
-                        <div class="skill">
-                            <a href="/" onClick={function(e){
-                                e.preventDefault();
-                                this.props.onChangeAbout();
-                            }.bind(this)}><img src={Arrow}/></a>
-                        </div>
-                        
+class Wrapper extends Component{
+    
+    render(){
+        return(
+            <div className="Wrapper">
+                <div className="canvas"></div>
+                <div className="text_remote">
+                    <div className="intro">
+                    안녕하세요, 웹 개발자를 꿈꾸는 <span>왕찬웅</span>입니다.
                     </div>
-
+                    <div className="remote">
+                        <span>View my Work</span>
+                    </div>
+                </div>
+                <div className="nav">
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>SKILL</li>
+                        <li>PROJECT</li>
+                        <li>CONTACT</li>
+                        
+                    </ul>
                 </div>
             </div>
         );
     }
 }
-
 
 
 export default Wrapper;
