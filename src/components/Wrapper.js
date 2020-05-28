@@ -17,11 +17,10 @@ class Wrapper extends Component{
                 </div>
                 <div className="nav">
                     <ul>
-                        <li>HOME</li>
-                        <li>ABOUT</li>
-                        <li>SKILL</li>
-                        <li>PROJECT</li>
-                        <li>CONTACT</li>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/">ABOUT</a></li>
+                        <li><a href="/">PROJECT</a></li>
+                        <li><a href="/">CONTACT</a></li>
                         
                     </ul>
                 </div>

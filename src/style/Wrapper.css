@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Sans+KR:wght@300&family=Oswald:wght@200&family=Raleway:wght@500&display=swap');
+
+body,html{
+  scroll-behavior: smooth;
+}
+ul{
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .Wrapper{
-    height: 100vh;
+    height: calc(100vh + 50px);
     position: relative;
 }
 .canvas{
@@ -31,6 +43,12 @@
 }
 .nav ul li{
     float: left;
+    margin: 0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+
+
+    font-size: 18px;
 }
 /* .remote{
     cursor: pointer;
@@ -58,10 +76,11 @@
   color: #fff;
   font-size: 22px;
   margin-top: 22px;
-  padding: 14px 22px 14px 22px;
+  padding: 8px 22px 8px 22px;
   position: relative;
   text-transform: uppercase;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;  
 }
 
 .remote::before,
@@ -73,7 +92,7 @@
 }
 
 .remote:hover {
-  color: red;
+  color: rgb(69, 49, 63);
 }
 
 /* .remote 5 */
@@ -95,4 +114,15 @@
 .remote:hover:after {
   height: 100%;
   width: 135%;
+}
+
+.nav{
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(138, 98, 126);
+}
+.nav ul{
+  display: inline-block;
+ 
 }

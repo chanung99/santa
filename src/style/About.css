@@ -1,0 +1,81 @@
+.About{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 120px 0 120px 0;
+
+}
+.About::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.About_header span{
+    font-size: 40px;
+}
+.header_bar{
+    height: 4px;
+    width: 70px;
+    background-color: rgb(138, 98, 126);
+    margin : 15px auto 100px auto;
+}
+.profile{
+    float: left;
+    width: 60%;
+}
+.skill{
+    float: left;
+    width: 25%;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+}
+.profile_img{
+    background-image: url("../img/haha.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.skill ul li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 11px;
+}
+.skillBox{
+    width: 76px;
+    height: 79px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+}
+
+.HTML{
+    background-image: url("../img/html.png");
+}
+.CSS{
+    background-image: url("../img/css.png");
+}
+.JS{
+    background-image: url("../img/js.png");
+}
+.JQ{
+    background-image: url("../img/jquery.png");
+}
+.JAVA{
+    background-image: url("../img/java.png");
+}
+.ORACLE{
+    background-image: url("../img/oracle-icon.png");
+}
+.SPRING{
+    background-image: url("../img/spring.jpg");
+}
+.REACT{
+    background-image: url("../img/react.png");
+}
