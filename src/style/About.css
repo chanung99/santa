@@ -18,7 +18,7 @@
     height: 4px;
     width: 70px;
     background-color: rgb(138, 98, 126);
-    margin : 15px auto 100px auto;
+    margin : 15px auto 70px auto;
 }
 .profile{
     float: left;
@@ -47,7 +47,7 @@
     margin-right: 30px;
     margin-bottom: 11px;
 }
-.skillBox{
+div[name="skillBox"]{
     width: 76px;
     height: 79px;
     background-size: cover;

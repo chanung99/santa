@@ -8,6 +8,9 @@ ul{
 }
 a{
   text-decoration: none;
+}
+.nav a{
+ 
   color: #ffffff;
 }
 .Wrapper{
