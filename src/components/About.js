@@ -9,8 +9,13 @@ class About extends Component{
         var num = this.props.selected_skill;
         var i = 0;
 
+
         while(i < data.length){
-            lists.push(<li><div className={data[i].skill} name="skillBox"></div></li>)
+            if(num == data[i].id){
+                
+                lists.push(<li><div className={`${data[i].skill} skillbox`}></div></li>)
+
+            }
 
             i = i + 1;
         }
@@ -27,11 +32,11 @@ class About extends Component{
                 <SkillSet onChangePage={function(value){
                     this.props.onChangePage(value);
                 }.bind(this)}></SkillSet>
-
-               <ul>
-                   {lists}
-               </ul>
-                
+                <div className="skillWrap">
+                    <ul className="skillUl">
+                        {lists}
+                    </ul>
+                </div>
 
 
                 {/* <div className="About_text">

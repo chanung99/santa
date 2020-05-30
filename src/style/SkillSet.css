@@ -1,6 +1,7 @@
 .skillSet ul li{
     display: inline-block;
     padding: 0 3px;
+    margin: 5px 0 5px 0;
 }
 .skillSet ul li a{
     width: 190px;
@@ -10,4 +11,7 @@
     border: 1px solid #0c4da2;
     display: block;
     border-radius: 5px;
+}
+.skillSet{
+    margin-bottom: 50px;
 }
