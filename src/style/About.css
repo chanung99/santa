@@ -58,8 +58,8 @@
 .skillbox:hover{
     border: 1px solid #0c4da2;
     cursor: pointer;
-}
 
+}
 .HTML{
     background-image: url("../img/html.png");
 }

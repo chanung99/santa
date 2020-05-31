@@ -19,7 +19,8 @@ class App extends Component {
           {id:1 , skill : "REACT" , name : "REACT" },
           {id:2 , skill : "JAVA" , name : "JAVA" },
           {id:2 , skill : "ORACLE" , name : "ORACLE" },
-          {id:3 , skill : "SPRING" , name : "SPRING" }
+          {id:3 , skill : "SPRING" , name : "SPRING" },
+          {id:3 , skill : "WINDOW" , name : "WINDOW"}
         
         ]
       

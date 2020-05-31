@@ -32,6 +32,7 @@ class About extends Component{
                 <SkillSet onChangePage={function(value){
                     this.props.onChangePage(value);
                 }.bind(this)} selected_skill={num}></SkillSet>
+
                 <div className="skillWrap">
                     <ul className="skillUl">
                         {lists}
