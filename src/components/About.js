@@ -9,8 +9,13 @@ class About extends Component{
         var num = this.props.selected_skill;
         var i = 0;
 
+
         while(i < data.length){
-            lists.push(<li><div className={data[i].skill} name="skillBox"></div></li>)
+            if(num == data[i].id){
+                
+                lists.push(<li><div className={`${data[i].skill} skillbox`}></div></li>)
+
+            }
 
             i = i + 1;
         }
@@ -26,12 +31,12 @@ class About extends Component{
                 </div>
                 <SkillSet onChangePage={function(value){
                     this.props.onChangePage(value);
-                }.bind(this)}></SkillSet>
-
-               <ul>
-                   {lists}
-               </ul>
-                
+                }.bind(this)} selected_skill={num}></SkillSet>
+                <div className="skillWrap">
+                    <ul className="skillUl">
+                        {lists}
+                    </ul>
+                </div>
 
 
                 {/* <div className="About_text">
@@ -42,7 +47,6 @@ class About extends Component{
                         <div className="profile_img"></div>
                         <div>제 사진넣을곳</div>
                     </div>
-
                     <div className="skill">
                         <ul>
                             <li><div className="HTML skillBox"></div></li>

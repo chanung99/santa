@@ -47,12 +47,17 @@
     margin-right: 30px;
     margin-bottom: 11px;
 }
-div[name="skillBox"]{
-    width: 76px;
-    height: 79px;
+.skillbox{
+    width: 216px;
+    height: 219px;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);
+    border : 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.skillbox:hover{
+    border: 1px solid #0c4da2;
+    cursor: pointer;
 }
 
 .HTML{
@@ -78,4 +83,25 @@ div[name="skillBox"]{
 }
 .REACT{
     background-image: url("../img/react.png");
+}
+.WINDOW{
+    background-image: url("../img/window.png");
+}
+.skillUl{
+    width: 70%;
+    display: inline-block;
+}
+.skillUl li{
+    display: inline-block;
+    margin: 0 40px 40px 0;
+}
+.skillWrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+@media screen and (max-width: 1200px){
+    .skillWrap{
+        width: 100%;
+    }
 }
