@@ -7,3 +7,19 @@
     background-color: rgb(138, 98, 126);
     margin : 15px auto 70px auto;
 }
+.gallery{
+    display: inline-block;
+}
+
+.gallery div.projectTab{
+    display : block;
+    float: left;
+}
+@media screen and (min-width: 960px){
+
+.gallery div {
+    font-size: 13pt;
+    margin: 0 25px;
+    padding: 0 40px;
+}
+}
