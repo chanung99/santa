@@ -4,6 +4,7 @@ import './style/App.css';
 import Wrapper from './components/Wrapper';
 import About from './components/About'; 
 import SkillSet from './components/SkillSet'; 
+import Project from './components/Project';
 class App extends Component {
   constructor(props){
     super(props);
@@ -40,6 +41,7 @@ class App extends Component {
             selected_skill : value
           });
         }.bind(this)}></About>
+        <Project></Project>
         
                 
       </div>

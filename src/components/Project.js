@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import '../style/About.css';
+import '../style/Project.css';
 
 class Project extends Component{
     render(){
         return(
-            <div></div>
+            <div className="Project">
+                <div className="Project_header">
+                    <span>Project</span>
+                </div>
+                <div className="header_bar">
+
+                </div>
+            </div>
         );
     }
 }

@@ -1,0 +1,9 @@
+.Project_header span{
+    font-size: 40px;
+}
+.header_bar{
+    height: 4px;
+    width: 70px;
+    background-color: rgb(138, 98, 126);
+    margin : 15px auto 70px auto;
+}

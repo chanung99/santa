@@ -14,3 +14,24 @@
 .skillSet{
     margin-bottom: 50px;
 }
+
+.skillTab{
+    border : 1px solid #d9d9d9;
+}
+.skillTab:hover{
+    color: #0c4da2;
+    border-color: #0c4da2;
+}
+.front{
+    color: #0c4da2;
+    border-color: #0c4da2;
+}
+.back{
+    color: #0c4da2;
+    border-color: #0c4da2;
+}
+
+.ect{
+    color: #0c4da2;
+    border-color: #0c4da2;
+}
