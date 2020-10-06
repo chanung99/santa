@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a141b80248e2aac7d1c5a971e786fa5",
+    "revision": "2ed3484bba9de67cf871137cded76f9e",
     "url": "/santa/index.html"
   },
   {
-    "revision": "cca747d30455d7e60a09",
-    "url": "/santa/static/css/main.2008dc59.chunk.css"
+    "revision": "4619d2e04caeace19cb6",
+    "url": "/santa/static/css/main.f865b1df.chunk.css"
   },
   {
     "revision": "4fcb0ecf1e65c1c62449",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/santa/static/js/2.c717b4a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cca747d30455d7e60a09",
-    "url": "/santa/static/js/main.0c616416.chunk.js"
+    "revision": "4619d2e04caeace19cb6",
+    "url": "/santa/static/js/main.db47a3ab.chunk.js"
   },
   {
     "revision": "003633d0ed6287387842",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b896d9ca63e4d13e8e4c621dc695499f",
     "url": "/santa/static/media/spring.b896d9ca.jpg"
+  },
+  {
+    "revision": "84dca0602316f751758328f8680cfffa",
+    "url": "/santa/static/media/window.84dca060.png"
   }
 ]);
